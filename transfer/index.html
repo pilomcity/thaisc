@@ -10,10 +10,104 @@
 <link rel="stylesheet" id="wp-block-library-css" href="/lib/css/dist/block-library/style.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="carousel-block-slick-css" href="/modules/carousel-block/dist/assets/vendor/slick/slick.min.css" type="text/css" media="">
 <link rel="stylesheet" id="carousel-block-css" href="/modules/carousel-block/dist/blocks.style.build.css" type="text/css" media="all">
+<link rel="stylesheet" id="contact-form-7-css" href="/modules/contact-form-7/includes/css/styles.css" type="text/css" media="all">
 <link rel="stylesheet" id="s-mobile-css" href="/template/css/mobile.css" type="text/css" media="all">
 <link rel="stylesheet" id="s-desktop-css" href="/template/css/desktop.css" type="text/css" media="(min-width: 992px)">
-<style id="generateblocks-css">.gb-container .wp-block-image img{vertical-align:middle;}.gb-container .gb-shape{position:absolute;overflow:hidden;pointer-events:none;line-height:0;}.gb-container .gb-shape svg{fill:currentColor;}.gb-container-b58beda8{border-radius:10px;border-style: solid;border-width:1px;border-color:#abb8c3;}.gb-container-b58beda8 > .gb-inside-container{padding:10px;max-width:1100px;margin-left:auto;margin-right:auto;}.gb-container-a66847bb > .gb-inside-container{padding-top:10px;padding-right:10px;padding-left:10px;}.gb-grid-wrapper > .gb-grid-column-a66847bb{width:50%;}.gb-container-8fa6b8fb > .gb-inside-container{padding-top:10px;padding-right:10px;padding-left:10px;}.gb-grid-wrapper > .gb-grid-column-8fa6b8fb{width:50%;}.gb-grid-wrapper{display:flex;flex-wrap:wrap;}.gb-grid-wrapper > .gb-grid-column > .gb-container{display:flex;flex-direction:column;height:100%;}.gb-grid-column{box-sizing:border-box;}.gb-grid-wrapper .wp-block-image{margin-bottom:0;}@media (max-width: 767px) {.gb-grid-wrapper > .gb-grid-column-b58beda8{width:100%;}.gb-grid-wrapper > .gb-grid-column-a66847bb{width:100%;}.gb-grid-wrapper > .gb-grid-column-8fa6b8fb{width:100%;}}</style>
-</head>
+<link rel="stylesheet" id="s-style-css" href="/template/style.css" type="text/css" media="all">
+<script type="text/javascript" src="/lib/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="/lib/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="/modules/wonderplugin-lightbox/engine/wonderpluginlightbox.js" id="wonderplugin-lightbox-script-js"></script>
+		<style type="text/css" id="wp-custom-css">.site-title {
+display: none;
+}
+
+#course_curriculum_container {
+    font-size: 0.9em;
+}
+#course_curriculum_container .box-playlist{
+	margin: 0px 0px 10px 0px;
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+}
+#course_curriculum_container .box-title{
+	width: 100%;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: left;
+	padding: 3px;
+	margin: 0px 0px 1px 0px;
+	color:#fff;
+	background-color:#7B7B7B;
+}
+#course_curriculum_container .box-chapter{
+	position: relative;
+	padding-right: 185px;
+	margin: 8px;
+	background-color:#fff;
+	cursor: default;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+#course_curriculum_container .box-chapter .box-chapter-detail{
+	position: absolute;
+	top: -8px;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 35px;
+}
+#course_curriculum_container .box-chapter .box-chapter-detail span{
+	margin-right: 8px;
+}
+#course_curriculum_container .box-chapter .label{
+	letter-spacing: 0.3px;
+}
+#course_curriculum_container .label-success{
+	background-color: #0c69f5;
+}
+#course_curriculum_container .label{
+	display: inline;
+	padding: .2em .6em .3em;
+	font-size: 75%;
+	font-weight: bold;
+	line-height: 1;
+	color:#fff;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: .25em;
+}
+#course_curriculum_container .box-chapter .box-chapter-detail .box-chapter-icon{
+	line-height: 0px;
+	font-size: 1.1em;
+}
+#course_curriculum_container .box-chapter .box-chapter-detail .text-duration{
+	width: 71px;
+	text-align: right;
+}
+
+#course_curriculum_container .box-chapter.has-preview{
+	color: #007791;
+}
+#course_curriculum_container .box-chapter.has-preview:hover{
+	color: #04542b;
+}
+
+table, th, td {
+  border: solid 1px #ccc;
+  padding: 10px;
+}
+
+table {
+    border-collapse:collapse;
+    caption-side:bottom;
+    width: 100%;
+}</style>
+		</head>
 
 
 <body class="">
@@ -40,6 +134,7 @@
 <li><a href="/delivery">รอบส่ง</a></li>
 <li><a href="/condition">เงื่อนไขในการสั่งซื้อ</a></li>
 <li><a href="https://www.thaikorpor.com/">ติวออนไลน์</a></li>
+<li><a href="/job-ocsc-aptitude-test">ประกาศรับสมัคร</a></li>
 <li><a href="/contact">ติดต่อเรา</a></li>
 </ul></div>                </nav>
                 
@@ -55,6 +150,7 @@
 <li><a href="/delivery">รอบส่ง</a></li>
 <li><a href="/condition">เงื่อนไขในการสั่งซื้อ</a></li>
 <li><a href="https://www.thaikorpor.com/">ติวออนไลน์</a></li>
+<li><a href="/job-ocsc-aptitude-test">ประกาศรับสมัคร</a></li>
 <li><a href="/contact">ติดต่อเรา</a></li>
 </ul></div>                </div>
             </nav>
@@ -84,29 +180,57 @@
         <h1 class="entry-title">แจ้งผลการโอนเงิน</h1>    </header>
 
     <div class="entry-content">
-        <div class="gb-container gb-container-b58beda8"><div class="gb-inside-container">
-
-<p class="has-text-align-center">การสั่งซื้อ/แจ้งโอนผ่านระบบด้วยตนเอง อยู่ระหว่างการพัฒนาปรับปรุงให้ดียิ่งขึ้น<br>สามารถสั่งซื้อ/แจ้งโอนผ่านช่องทาง LINE หรือ FB Messenger</p>
-
-
-<div class="gb-grid-wrapper gb-grid-wrapper-978046a6">
-<div class="gb-grid-column gb-grid-column-a66847bb"><div class="gb-container gb-container-a66847bb"><div class="gb-inside-container">
-
-<div class="wp-block-buttons">
-<div class="wp-block-button has-custom-width wp-block-button__width-100 has-custom-font-size has-small-font-size"><a class="wp-block-button__link has-white-color has-vivid-green-cyan-background-color has-text-color has-background" href="https://line.me/ti/p/~book1064" target="_blank" rel="noreferrer noopener">LINE ID : book1064</a></div>
+        <div role="form" class="wpcf7" id="wpcf7-f6161-p45-o1" lang="th" dir="ltr">
+<div class="screen-reader-response">
+<p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul>
+</div>
+<form action="/transfer#wpcf7-f6161-p45-o1" method="post" class="wpcf7-form init" enctype="multipart/form-data" novalidate="novalidate" data-status="init">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="6161">
+<input type="hidden" name="_wpcf7_version" value="5.6">
+<input type="hidden" name="_wpcf7_locale" value="th">
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f6161-p45-o1">
+<input type="hidden" name="_wpcf7_container_post" value="45">
+<input type="hidden" name="_wpcf7_posted_data_hash" value="">
+</div>
+<div id="responsive-form" class="clearfix">
+<p>โปรดเลือกรายการที่ได้ทำการโอนชำระ*</p>
+<p><span class="wpcf7-form-control-wrap" data-name="your-book"><span class="wpcf7-form-control wpcf7-checkbox wpcf7-validates-as-required"><span class="wpcf7-list-item first"><label><input type="checkbox" name="your-book[]" value="1. Box set วิดีโอติวแนวคิดพิชิตข้อสอบภาค ก. ครบเนื้อหาสอบ 1990 บาท"><span class="wpcf7-list-item-label">1. Box set วิดีโอติวแนวคิดพิชิตข้อสอบภาค ก. ครบเนื้อหาสอบ 1990 บาท</span></label></span><span class="wpcf7-list-item last"><label><input type="checkbox" name="your-book[]" value="2. คู่มือเตรียมสอบภาค ก. 2 เล่ม ครบเนื้อหาสอบ 880 บาท"><span class="wpcf7-list-item-label">2. คู่มือเตรียมสอบภาค ก. 2 เล่ม ครบเนื้อหาสอบ 880 บาท</span></label></span></span></span></p>
+<div class="form-row">
+<div class="column-half">วันที่โอนชำระ* (เช่น 1 มิ.ย. 2565)<span class="wpcf7-form-control-wrap" data-name="your-date"><input type="text" name="your-date" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false"></span>
+</div>
+<div class="column-half">เวลาที่โอนชำระ* (เช่น 09.46)<span class="wpcf7-form-control-wrap" data-name="your-time"><input type="text" name="your-time" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false"></span>
+</div>
+</div>
+<div class="form-row">
+<div class="column-half">จำนวนเงิน* <span class="wpcf7-form-control-wrap" data-name="your-money"><input type="text" name="your-money" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false"></span>
+</div>
+<div class="column-half">หลักฐานการชำระเงิน(ถ้ามี)<span class="wpcf7-form-control-wrap" data-name="file-upload"><input type="file" name="file-upload" size="40" class="wpcf7-form-control wpcf7-file" accept="audio/*,video/*,image/*" aria-invalid="false"></span>
+</div>
+</div>
+<div class="form-row">
+<div class="column-full">ชื่อ-สกุล* <span class="wpcf7-form-control-wrap" data-name="your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false"></span>
+</div>
+</div>
+<div class="form-row">
+<div class="column-half">เบอร์โทรศัพท์* <span class="wpcf7-form-control-wrap" data-name="your-telephone"><input type="text" name="your-telephone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false"></span>
+</div>
+<div class="column-half">อีเมล* <span class="wpcf7-form-control-wrap" data-name="your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false"></span>
+</div>
+</div>
+<div class="form-row">
+<div class="column-full">ที่อยู่ในการจัดส่ง* <span class="wpcf7-form-control-wrap" data-name="your-address"><textarea name="your-address" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false"></textarea></span>
+</div>
+</div>
+<div class="form-row">
+<div class="column-full"><input type="submit" value="แจ้งโอนเงิน" class="wpcf7-form-control has-spinner wpcf7-submit"></div>
+</div>
+</div>
+<p><!--end responsive-form--></p>
+<div class="wpcf7-response-output" aria-hidden="true"></div>
+</form>
 </div>
 
-</div></div></div>
-
-<div class="gb-grid-column gb-grid-column-8fa6b8fb"><div class="gb-container gb-container-8fa6b8fb"><div class="gb-inside-container">
-
-<div class="wp-block-buttons">
-<div class="wp-block-button has-custom-width wp-block-button__width-100 has-custom-font-size has-small-font-size"><a class="wp-block-button__link has-white-color has-text-color has-background" href="https://m.me/thaiscdotcom" style="background-color:#3b5998" target="_blank" rel="noreferrer noopener">FB Messenger</a></div>
-</div>
-
-</div></div></div>
-</div>
-</div></div>
 
 
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
@@ -127,7 +251,7 @@
 <footer id="colophon" class="site-footer">
     <div class="s-container">
         <div class="site-info">
-            Copyright &copy; 2022 All rights reserved.
+            Copyright &copy; 2022 หนังสือสอบ กพ 2565 พร้อมแนวข้อสอบ กพ. All rights reserved.
         </div>
     </div>
 </footer>
@@ -138,6 +262,15 @@
 
 <div class="s-modal-bg"></div>
 
+<div id="wonderpluginlightbox_options" data-skinsfoldername="skins/default/" data-jsfolder="https://sc.thaikorpor.com/wp-content/plugins/wonderplugin-lightbox/engine/" data-autoslide="false" data-slideinterval="5000" data-showtimer="true" data-timerposition="bottom" data-timerheight="2" data-timercolor="#dc572e" data-timeropacity="1" data-navarrowspos="inside" data-closepos="outside" data-enteranimation="zoomIn" data-exitanimation="" data-showplaybutton="false" data-alwaysshownavarrows="false" data-bordersize="8" data-showtitleprefix="false" data-responsive="true" data-fullscreenmode="false" data-fullscreentextoutside="true" data-closeonoverlay="true" data-videohidecontrols="false" data-titlestyle="bottom" data-imagepercentage="75" data-enabletouchswipe="true" data-autoplay="true" data-html5player="true" data-overlaybgcolor="#000" data-overlayopacity="0.8" data-defaultvideovolume="1" data-bgcolor="#FFF" data-borderradius="0" data-thumbwidth="96" data-thumbheight="72" data-thumbtopmargin="12" data-thumbbottommargin="12" data-barheight="64" data-showtitle="true" data-titleprefix="%NUM / %TOTAL" data-titlebottomcss="color:#333; font-size:14px; font-family:Armata,sans-serif,Arial; overflow:hidden; text-align:left;" data-showdescription="true" data-descriptionbottomcss="color:#333; font-size:12px; font-family:Arial,Helvetica,sans-serif; overflow:hidden; text-align:left; margin:4px 0px 0px; padding: 0px;" data-titleinsidecss="color:#fff; font-size:16px; font-family:Arial,Helvetica,sans-serif; overflow:hidden; text-align:left;" data-descriptioninsidecss="color:#fff; font-size:12px; font-family:Arial,Helvetica,sans-serif; overflow:hidden; text-align:left; margin:4px 0px 0px; padding: 0px;" data-titleoutsidecss="color:#fff; font-size:18px; font-family:Arial,Helvetica,sans-serif; overflow:hidden; text-align:center; margin: 8px;" data-descriptionoutsidecss="color:#fff; font-size:14px; font-family:Arial,Helvetica,sans-serif; overflow:hidden; text-align:center; margin:8px; padding: 0px;" data-videobgcolor="#000" data-html5videoposter="" data-responsivebarheight="false" data-smallscreenheight="415" data-barheightonsmallheight="48" data-notkeepratioonsmallheight="false" data-showsocial="false" data-socialposition="position:absolute;top:100%;right:0;" data-socialpositionsmallscreen="position:absolute;top:100%;right:0;left:0;" data-socialdirection="horizontal" data-socialbuttonsize="32" data-socialbuttonfontsize="18" data-socialrotateeffect="true" data-showfacebook="true" data-showtwitter="true" data-showpinterest="true" data-bordertopmargin="48" data-shownavigation="true" data-navbgcolor="rgba(0,0,0,0.2)" data-shownavcontrol="true" data-hidenavdefault="false" data-hidenavigationonmobile="false" data-hidenavigationonipad="false" data-wonderplugin-lightbox-options="863babec57" data-_wp_http_referer="/wp-admin/admin.php?page=wonderplugin_lightbox_show_options" style="display:none;"></div>
+<script type="text/javascript" src="/lib/js/dist/vendor/regenerator-runtime.min.js" id="regenerator-runtime-js"></script>
+<script type="text/javascript" src="/lib/js/dist/vendor/wp-polyfill.min.js" id="wp-polyfill-js"></script>
+<script type="text/javascript" id="contact-form-7-js-extra">
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/sc.thaikorpor.com\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/modules/contact-form-7/includes/js/index.js" id="contact-form-7-js"></script>
 <script type="text/javascript" src="/template/js/scripts.js" id="s-scripts-js"></script>
 <script type="text/javascript" src="/template/js/main-vanilla.js" id="s-vanilla-js"></script>
 </body>

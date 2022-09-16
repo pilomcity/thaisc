@@ -10,9 +10,104 @@
 <link rel="stylesheet" id="wp-block-library-css" href="/lib/css/dist/block-library/style.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="carousel-block-slick-css" href="/modules/carousel-block/dist/assets/vendor/slick/slick.min.css" type="text/css" media="">
 <link rel="stylesheet" id="carousel-block-css" href="/modules/carousel-block/dist/blocks.style.build.css" type="text/css" media="all">
+<link rel="stylesheet" id="contact-form-7-css" href="/modules/contact-form-7/includes/css/styles.css" type="text/css" media="all">
 <link rel="stylesheet" id="s-mobile-css" href="/template/css/mobile.css" type="text/css" media="all">
 <link rel="stylesheet" id="s-desktop-css" href="/template/css/desktop.css" type="text/css" media="(min-width: 992px)">
-</head>
+<link rel="stylesheet" id="s-style-css" href="/template/style.css" type="text/css" media="all">
+<script type="text/javascript" src="/lib/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="/lib/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="/modules/wonderplugin-lightbox/engine/wonderpluginlightbox.js" id="wonderplugin-lightbox-script-js"></script>
+		<style type="text/css" id="wp-custom-css">.site-title {
+display: none;
+}
+
+#course_curriculum_container {
+    font-size: 0.9em;
+}
+#course_curriculum_container .box-playlist{
+	margin: 0px 0px 10px 0px;
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+}
+#course_curriculum_container .box-title{
+	width: 100%;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: left;
+	padding: 3px;
+	margin: 0px 0px 1px 0px;
+	color:#fff;
+	background-color:#7B7B7B;
+}
+#course_curriculum_container .box-chapter{
+	position: relative;
+	padding-right: 185px;
+	margin: 8px;
+	background-color:#fff;
+	cursor: default;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+#course_curriculum_container .box-chapter .box-chapter-detail{
+	position: absolute;
+	top: -8px;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 35px;
+}
+#course_curriculum_container .box-chapter .box-chapter-detail span{
+	margin-right: 8px;
+}
+#course_curriculum_container .box-chapter .label{
+	letter-spacing: 0.3px;
+}
+#course_curriculum_container .label-success{
+	background-color: #0c69f5;
+}
+#course_curriculum_container .label{
+	display: inline;
+	padding: .2em .6em .3em;
+	font-size: 75%;
+	font-weight: bold;
+	line-height: 1;
+	color:#fff;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: .25em;
+}
+#course_curriculum_container .box-chapter .box-chapter-detail .box-chapter-icon{
+	line-height: 0px;
+	font-size: 1.1em;
+}
+#course_curriculum_container .box-chapter .box-chapter-detail .text-duration{
+	width: 71px;
+	text-align: right;
+}
+
+#course_curriculum_container .box-chapter.has-preview{
+	color: #007791;
+}
+#course_curriculum_container .box-chapter.has-preview:hover{
+	color: #04542b;
+}
+
+table, th, td {
+  border: solid 1px #ccc;
+  padding: 10px;
+}
+
+table {
+    border-collapse:collapse;
+    caption-side:bottom;
+    width: 100%;
+}</style>
+		</head>
 
 
 <body class="">
@@ -39,6 +134,7 @@
 <li class="current_page_item"><a href="/delivery" aria-current="page">รอบส่ง</a></li>
 <li><a href="/condition">เงื่อนไขในการสั่งซื้อ</a></li>
 <li><a href="https://www.thaikorpor.com/">ติวออนไลน์</a></li>
+<li><a href="/job-ocsc-aptitude-test">ประกาศรับสมัคร</a></li>
 <li><a href="/contact">ติดต่อเรา</a></li>
 </ul></div>                </nav>
                 
@@ -54,6 +150,7 @@
 <li class="current_page_item"><a href="/delivery" aria-current="page">รอบส่ง</a></li>
 <li><a href="/condition">เงื่อนไขในการสั่งซื้อ</a></li>
 <li><a href="https://www.thaikorpor.com/">ติวออนไลน์</a></li>
+<li><a href="/job-ocsc-aptitude-test">ประกาศรับสมัคร</a></li>
 <li><a href="/contact">ติดต่อเรา</a></li>
 </ul></div>                </div>
             </nav>
@@ -138,7 +235,7 @@
 <footer id="colophon" class="site-footer">
     <div class="s-container">
         <div class="site-info">
-            Copyright &copy; 2022 All rights reserved.
+            Copyright &copy; 2022 หนังสือสอบ กพ 2565 พร้อมแนวข้อสอบ กพ. All rights reserved.
         </div>
     </div>
 </footer>
@@ -149,6 +246,15 @@
 
 <div class="s-modal-bg"></div>
 
+<div id="wonderpluginlightbox_options" data-skinsfoldername="skins/default/" data-jsfolder="https://sc.thaikorpor.com/wp-content/plugins/wonderplugin-lightbox/engine/" data-autoslide="false" data-slideinterval="5000" data-showtimer="true" data-timerposition="bottom" data-timerheight="2" data-timercolor="#dc572e" data-timeropacity="1" data-navarrowspos="inside" data-closepos="outside" data-enteranimation="zoomIn" data-exitanimation="" data-showplaybutton="false" data-alwaysshownavarrows="false" data-bordersize="8" data-showtitleprefix="false" data-responsive="true" data-fullscreenmode="false" data-fullscreentextoutside="true" data-closeonoverlay="true" data-videohidecontrols="false" data-titlestyle="bottom" data-imagepercentage="75" data-enabletouchswipe="true" data-autoplay="true" data-html5player="true" data-overlaybgcolor="#000" data-overlayopacity="0.8" data-defaultvideovolume="1" data-bgcolor="#FFF" data-borderradius="0" data-thumbwidth="96" data-thumbheight="72" data-thumbtopmargin="12" data-thumbbottommargin="12" data-barheight="64" data-showtitle="true" data-titleprefix="%NUM / %TOTAL" data-titlebottomcss="color:#333; font-size:14px; font-family:Armata,sans-serif,Arial; overflow:hidden; text-align:left;" data-showdescription="true" data-descriptionbottomcss="color:#333; font-size:12px; font-family:Arial,Helvetica,sans-serif; overflow:hidden; text-align:left; margin:4px 0px 0px; padding: 0px;" data-titleinsidecss="color:#fff; font-size:16px; font-family:Arial,Helvetica,sans-serif; overflow:hidden; text-align:left;" data-descriptioninsidecss="color:#fff; font-size:12px; font-family:Arial,Helvetica,sans-serif; overflow:hidden; text-align:left; margin:4px 0px 0px; padding: 0px;" data-titleoutsidecss="color:#fff; font-size:18px; font-family:Arial,Helvetica,sans-serif; overflow:hidden; text-align:center; margin: 8px;" data-descriptionoutsidecss="color:#fff; font-size:14px; font-family:Arial,Helvetica,sans-serif; overflow:hidden; text-align:center; margin:8px; padding: 0px;" data-videobgcolor="#000" data-html5videoposter="" data-responsivebarheight="false" data-smallscreenheight="415" data-barheightonsmallheight="48" data-notkeepratioonsmallheight="false" data-showsocial="false" data-socialposition="position:absolute;top:100%;right:0;" data-socialpositionsmallscreen="position:absolute;top:100%;right:0;left:0;" data-socialdirection="horizontal" data-socialbuttonsize="32" data-socialbuttonfontsize="18" data-socialrotateeffect="true" data-showfacebook="true" data-showtwitter="true" data-showpinterest="true" data-bordertopmargin="48" data-shownavigation="true" data-navbgcolor="rgba(0,0,0,0.2)" data-shownavcontrol="true" data-hidenavdefault="false" data-hidenavigationonmobile="false" data-hidenavigationonipad="false" data-wonderplugin-lightbox-options="863babec57" data-_wp_http_referer="/wp-admin/admin.php?page=wonderplugin_lightbox_show_options" style="display:none;"></div>
+<script type="text/javascript" src="/lib/js/dist/vendor/regenerator-runtime.min.js" id="regenerator-runtime-js"></script>
+<script type="text/javascript" src="/lib/js/dist/vendor/wp-polyfill.min.js" id="wp-polyfill-js"></script>
+<script type="text/javascript" id="contact-form-7-js-extra">
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/sc.thaikorpor.com\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/modules/contact-form-7/includes/js/index.js" id="contact-form-7-js"></script>
 <script type="text/javascript" src="/template/js/scripts.js" id="s-scripts-js"></script>
 <script type="text/javascript" src="/template/js/main-vanilla.js" id="s-vanilla-js"></script>
 </body>
