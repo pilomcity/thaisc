@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	ความเห็นสำหรับ หนังสือสอบ กพ 2566 พร้อมแนวข้อสอบ กพ	</title>
+	<atom:link href="/comments/feed" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>หนังสือแนวข้อสอบ กพ ยอดจำหน่ายมากที่สุด จากผู้แต่งที่สอบผ่านภาค ก.ทั้งระดับ 1,2 และ 3 สำหรับใช้สอบ กพ 2566 เนื้อหาตรงจุด พร้อมเทคนิคในการทำข้อสอบ กพ</description>
+	<lastBuildDate>Thu, 08 Dec 2022 21:58:28 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1</generator>
+</channel>
+</rss>
